@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="22" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T09:46:06Z" name="UI Test Suite" finished-at="2022-08-13T09:50:14Z" duration-ms="247959">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T09:46:06Z" name="TradeMe Sandbox - Login and Search Test Scenarios" finished-at="2022-08-13T09:50:14Z" duration-ms="247959">
+      <class name="com.ui.tests.UITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:06Z" name="setup" finished-at="2022-08-13T09:46:26Z" duration-ms="19729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateByDefaultRemeberMeCheckBoxIsChecked()[pri:0, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:26Z" name="validateByDefaultRemeberMeCheckBoxIsChecked" description="Verifying By default Remember Me is selected" finished-at="2022-08-13T09:46:26Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateByDefaultRemeberMeCheckBoxIsChecked -->
+        <test-method signature="validateAbleToUncheckRemeberMeCheckBox()[pri:1, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:26Z" name="validateAbleToUncheckRemeberMeCheckBox" description="Verifying Able to uncheck Remember Me" finished-at="2022-08-13T09:46:26Z" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAbleToUncheckRemeberMeCheckBox -->
+        <test-method signature="validCredentialsLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:26Z" name="validCredentialsLogin" description="Verifying Login for Valid Email &amp; Password combination" data-provider="loginTestData" finished-at="2022-08-13T09:46:29Z" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid_email@hello.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validpasswd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please complete Google reCAPTCHA and try again]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialsLogin -->
+        <test-method signature="InvalidCredentialsLogin(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:29Z" name="InvalidCredentialsLogin" description="Verifying Login for Invalid Email &amp; Password combination" data-provider="loginTestData" finished-at="2022-08-13T09:46:30Z" duration-ms="1613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_email@hello.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpasswd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please complete Google reCAPTCHA and try again]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentialsLogin -->
+        <test-method signature="validEmailInvalidPasswordLogin(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:30Z" name="validEmailInvalidPasswordLogin" description="Verifying Login for Valid Email &amp; Invalid Password combination" data-provider="loginTestData" finished-at="2022-08-13T09:46:32Z" duration-ms="1431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid_email@hello.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidpasswd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please complete Google reCAPTCHA and try again]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailInvalidPasswordLogin -->
+        <test-method signature="invalidEmailValidPasswordLogin(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:32Z" name="invalidEmailValidPasswordLogin" description="Verifying Login for Invalid Email &amp; Valid Password combination" data-provider="loginTestData" finished-at="2022-08-13T09:46:33Z" duration-ms="1404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_email@hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validpasswd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter a valid email address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailValidPasswordLogin -->
+        <test-method signature="emptyCredentialsLogin(java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:33Z" name="emptyCredentialsLogin" description="Verifying Login for empty credentials" data-provider="loginTestData" finished-at="2022-08-13T09:46:35Z" duration-ms="1322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This field is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialsLogin -->
+        <test-method signature="registerNowLinkWorks(java.lang.String)[pri:7, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:35Z" name="registerNowLinkWorks" description="Verifying Register now link works" data-provider="loginTestData" finished-at="2022-08-13T09:46:39Z" duration-ms="4649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trade Me - Register]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNowLinkWorks -->
+        <test-method signature="forgotPasswordLinkWorks(java.lang.String)[pri:8, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:39Z" name="forgotPasswordLinkWorks" description="Verifying forgot password link works" data-provider="loginTestData" finished-at="2022-08-13T09:46:45Z" duration-ms="6161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkWorks -->
+        <test-method signature="cancelButtonWorks(java.lang.String)[pri:9, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:45Z" name="cancelButtonWorks" description="Verifying Cancel link works" data-provider="loginTestData" finished-at="2022-08-13T09:46:49Z" duration-ms="4097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TRADEME SANDBOX - Buy online and sell with NZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonWorks -->
+        <test-method signature="troubleLoggingInLinkWorks(java.lang.String)[pri:10, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:46:49Z" name="troubleLoggingInLinkWorks" description="Verifying Having trouble in logging link works" data-provider="loginTestData" finished-at="2022-08-13T09:47:03Z" duration-ms="13861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logging in – Help - Trade Me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- troubleLoggingInLinkWorks -->
+        <test-method signature="setupForSearchTest()[pri:11, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:47:03Z" name="setupForSearchTest" finished-at="2022-08-13T09:47:19Z" duration-ms="15682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupForSearchTest -->
+        <test-method signature="verifySearchForDifferentKeywords(java.lang.String)[pri:12, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:47:19Z" name="verifySearchForDifferentKeywords" description="Verifying able to search for different keywords" data-provider="itemsSearchData" finished-at="2022-08-13T09:47:56Z" depends-on-methods="com.ui.tests.UITests.setupForSearchTest" duration-ms="36493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thinkpad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForDifferentKeywords -->
+        <test-method signature="verifySearchForDifferentKeywords(java.lang.String)[pri:12, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:47:56Z" name="verifySearchForDifferentKeywords" description="Verifying able to search for different keywords" data-provider="itemsSearchData" finished-at="2022-08-13T09:48:26Z" depends-on-methods="com.ui.tests.UITests.setupForSearchTest" duration-ms="30911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wireless mouse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForDifferentKeywords -->
+        <test-method signature="verifySearchForDifferentKeywords(java.lang.String)[pri:12, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:48:26Z" name="verifySearchForDifferentKeywords" description="Verifying able to search for different keywords" data-provider="itemsSearchData" finished-at="2022-08-13T09:48:55Z" depends-on-methods="com.ui.tests.UITests.setupForSearchTest" duration-ms="28458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wireless keyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForDifferentKeywords -->
+        <test-method signature="verifySearchForDifferentKeywords(java.lang.String)[pri:12, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:48:55Z" name="verifySearchForDifferentKeywords" description="Verifying able to search for different keywords" data-provider="itemsSearchData" finished-at="2022-08-13T09:49:33Z" depends-on-methods="com.ui.tests.UITests.setupForSearchTest" duration-ms="38096" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gfggfg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No Items found for search keyword, Showing 0 results for "gfggfg" expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No Items found for search keyword, Showing 0 results for "gfggfg" expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.ui.tests.UITests.verifySearchForDifferentKeywords(UITests.java:136)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchForDifferentKeywords -->
+        <test-method signature="verifySell()[pri:13, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:49:33Z" name="verifySell" description="Verifying Selling - General Item, This will fail due to Sandbox inconsistencies" finished-at="2022-08-13T09:50:13Z" duration-ms="39373" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#listing\-title"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'IN-HB8L473', ip: '192.168.43.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ROHITN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a55a786aab197a16a7881dc62f7304fd
+*** Element info: {Using=id, value=listing-title}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#listing\-title"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'IN-HB8L473', ip: '192.168.43.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ROHITN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a55a786aab197a16a7881dc62f7304fd
+*** Element info: {Using=id, value=listing-title}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.clear(Unknown Source)
+at com.ui.pages.TradeMe.enterListingTitle(TradeMe.java:49)
+at com.ui.tests.UITests.verifySell(UITests.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySell -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ui.tests.UITests@1f84327b]" started-at="2022-08-13T09:50:13Z" name="teardown" finished-at="2022-08-13T09:50:14Z" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ui.tests.UITests -->
+    </test> <!-- TradeMe Sandbox - Login and Search Test Scenarios -->
+  </suite> <!-- UI Test Suite -->
+  <suite started-at="2022-08-13T09:50:14Z" name="API Automation Suite" finished-at="2022-08-13T09:50:26Z" duration-ms="12378">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-13T09:50:14Z" name="API Test Scenarios Demo" finished-at="2022-08-13T09:50:26Z" duration-ms="12378">
+      <class name="com.api.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:14Z" name="setUpClass" finished-at="2022-08-13T09:50:15Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:21Z" duration-ms="6242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating POST API response for adding place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Add > Get > Update > Get Place) Response validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:21Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:22Z" duration-ms="1000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating GET API response for added place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Add > Get > Update > Get Place) Response validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:22Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:23Z" duration-ms="896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Trying to update address for added place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Add > Get > Update > Get Place) Response validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:24Z" duration-ms="785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating GET API response after updating address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Add > Get > Update > Get Place) Response validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:24Z" duration-ms="781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating DELETE API response after deleting place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Delete > Get > Update place) Response Validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:25Z" duration-ms="777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating GET API response after place got deleted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Delete > Get > Update place) Response Validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-13T09:50:26Z" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating PUT API response after place got deleted"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End (Delete > Get > Update place) Response Validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.api.runner.TestRunner@7ca492d9]" started-at="2022-08-13T09:50:26Z" name="tearDownClass" finished-at="2022-08-13T09:50:26Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.api.runner.TestRunner -->
+    </test> <!-- API Test Scenarios Demo -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>

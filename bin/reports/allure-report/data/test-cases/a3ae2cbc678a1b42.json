@@ -1,0 +1,100 @@
+{
+  "uid" : "a3ae2cbc678a1b42",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "d57af881f7acf01203716d9062004bb3",
+  "time" : {
+    "start" : 1660384224012,
+    "stop" : 1660384224790,
+    "duration" : 778
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1660384214423,
+      "stop" : 1660384215066,
+      "duration" : 643
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1660384226470,
+      "stop" : 1660384226800,
+      "duration" : 330
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Test Scenarios Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Validating DELETE API response after deleting place\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"End to End (Delete > Get > Update place) Response Validations\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3ae2cbc678a1b42.json",
+  "parameterValues" : [ "\"Validating DELETE API response after deleting place\"", "\"End to End (Delete > Get > Update place) Response Validations\"" ]
+}

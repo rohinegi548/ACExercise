@@ -1,0 +1,15 @@
+com\api\pojos\Location.class
+com\framework\helpers\CommonUtil.class
+com\ui\pages\LoggingHelp.class
+com\framework\helpers\UILogger.class
+com\ui\testbase\TestBase.class
+com\framework\enums\Browsers.class
+com\ui\pages\ForgotPassword.class
+com\ui\pages\SearchPageAndLoadedLink.class
+com\api\pojos\AddPlacePayload.class
+com\framework\enums\OS.class
+com\ui\pages\LoginPage.class
+com\framework\helpers\Constants.class
+com\ui\pages\TradeMeSearch.class
+com\api\pojos\UpdatePlacePojo.class
+com\ui\pages\TradeMe.class

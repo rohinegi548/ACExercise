@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TradeMe Sandbox - Login and Search Test Scenarios(failed)" verbose="0">
+    <classes>
+      <class name="com.ui.tests.UITests">
+        <methods>
+          <include name="setup"/>
+          <include name="verifySell"/>
+          <include name="setupForSearchTest"/>
+          <include name="teardown"/>
+          <include name="verifySearchForDifferentKeywords" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.ui.tests.UITests -->
+    </classes>
+  </test> <!-- TradeMe Sandbox - Login and Search Test Scenarios(failed) -->
+</suite> <!-- Failed suite [UI Test Suite] -->

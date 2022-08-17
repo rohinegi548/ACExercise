@@ -1,0 +1,444 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verifying By default Remember Me is selected",
+    "uid" : "82f2f8bbf303b810",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383986217,
+      "stop" : 1660383986327,
+      "duration" : 110
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verifying Able to uncheck Remember Me",
+    "uid" : "308f6c26aa7cd79f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383986567,
+      "stop" : 1660383986811,
+      "duration" : 244
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verifying Login for Valid Email & Password combination",
+    "uid" : "c115692b6ac1ee6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383986854,
+      "stop" : 1660383989238,
+      "duration" : 2384
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "valid_email@hello.com", "validpasswd", "Please complete Google reCAPTCHA and try again" ]
+  }, {
+    "name" : "Verifying Login for Invalid Email & Password combination",
+    "uid" : "233e26ecb51d996b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383989243,
+      "stop" : 1660383990854,
+      "duration" : 1611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "invalid_email@hello.com", "invalidpasswd", "Please complete Google reCAPTCHA and try again" ]
+  }, {
+    "name" : "Verifying Login for Valid Email & Invalid Password combination",
+    "uid" : "6f7388b09ead3a8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383990859,
+      "stop" : 1660383992287,
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "valid_email@hello.com", "invalidpasswd", "Please complete Google reCAPTCHA and try again" ]
+  }, {
+    "name" : "Verifying Login for Invalid Email & Valid Password combination",
+    "uid" : "e949488854ed63c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383992293,
+      "stop" : 1660383993693,
+      "duration" : 1400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "invalid_email@hello", "validpasswd", "Please enter a valid email address" ]
+  }, {
+    "name" : "Verifying Login for empty credentials",
+    "uid" : "666f485aa3e09663",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383993696,
+      "stop" : 1660383995018,
+      "duration" : 1322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "", "", "This field is required" ]
+  }, {
+    "name" : "Verifying Register now link works",
+    "uid" : "763c7f8ab20afa6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383995023,
+      "stop" : 1660383999671,
+      "duration" : 4648
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Trade Me - Register" ]
+  }, {
+    "name" : "Verifying forgot password link works",
+    "uid" : "5737c60a0b4aa10e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660383999709,
+      "stop" : 1660384005865,
+      "duration" : 6156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx" ]
+  }, {
+    "name" : "Verifying Cancel link works",
+    "uid" : "1e2e61b948633204",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384005875,
+      "stop" : 1660384009965,
+      "duration" : 4090
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "TRADEME SANDBOX - Buy online and sell with NZ" ]
+  }, {
+    "name" : "Verifying Having trouble in logging link works",
+    "uid" : "29672e94f90d7700",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384009971,
+      "stop" : 1660384023829,
+      "duration" : 13858
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Logging in – Help - Trade Me" ]
+  }, {
+    "name" : "setupForSearchTest",
+    "uid" : "9fa693ef05fa8f3b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384023841,
+      "stop" : 1660384039517,
+      "duration" : 15676
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verifying able to search for different keywords",
+    "uid" : "ca2e4a932d1ee07e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384039531,
+      "stop" : 1660384076017,
+      "duration" : 36486
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "thinkpad" ]
+  }, {
+    "name" : "Verifying able to search for different keywords",
+    "uid" : "5e3f866123b9802e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384076022,
+      "stop" : 1660384106931,
+      "duration" : 30909
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "wireless mouse" ]
+  }, {
+    "name" : "Verifying able to search for different keywords",
+    "uid" : "74bd541d04fa7ee5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384106937,
+      "stop" : 1660384135392,
+      "duration" : 28455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "wireless keyboard" ]
+  }, {
+    "name" : "Verifying able to search for different keywords",
+    "uid" : "1ad7ca54a58723bd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1660384135403,
+      "stop" : 1660384173528,
+      "duration" : 38125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "gfggfg" ]
+  }, {
+    "name" : "Verifying Selling - General Item, This will fail due to Sandbox inconsistencies",
+    "uid" : "3a5a392ef819c5c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1660384173835,
+      "stop" : 1660384213206,
+      "duration" : 39371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "d09b99fbba880f97",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384215073,
+      "stop" : 1660384221311,
+      "duration" : 6238
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating POST API response for adding place\"", "\"End to End (Add > Get > Update > Get Place) Response validations\"" ]
+  }, {
+    "name" : "End to End (Add > Get > Update > Get Place) Response validations",
+    "children" : [ {
+      "name" : "Validating POST API response for adding place",
+      "children" : [ {
+        "name" : "Validating POST API response for adding place",
+        "uid" : "b1fbf83bf7aa9655",
+        "parentUid" : "97ff7e692fc9e1bfbba4585909b8bbc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384215604,
+          "stop" : 1660384221295,
+          "duration" : 5691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "South BLVD. Ave 22", "Spanish-IN", "Gablo Anderson" ]
+      } ],
+      "uid" : "97ff7e692fc9e1bfbba4585909b8bbc0"
+    }, {
+      "name" : "Validating GET API response for added place",
+      "children" : [ {
+        "name" : "Validating GET API response for added place",
+        "uid" : "be3a3a21a0a0bd",
+        "parentUid" : "62b02dc6fcad86407b248d173e240030",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384221329,
+          "stop" : 1660384222307,
+          "duration" : 978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62b02dc6fcad86407b248d173e240030"
+    }, {
+      "name" : "Trying to update address for added place",
+      "children" : [ {
+        "name" : "Trying to update address for added place",
+        "uid" : "eb2e9f99e56d5cb6",
+        "parentUid" : "5b03b2f8138e944530de9a79dcc81ab4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384222340,
+          "stop" : 1660384223207,
+          "duration" : 867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b03b2f8138e944530de9a79dcc81ab4"
+    }, {
+      "name" : "Validating GET API response after updating address",
+      "children" : [ {
+        "name" : "Validating GET API response after updating address",
+        "uid" : "930e9c479dfadf38",
+        "parentUid" : "a906ac46640f436211ba0ba70dde3a07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384223239,
+          "stop" : 1660384223996,
+          "duration" : 757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a906ac46640f436211ba0ba70dde3a07"
+    } ],
+    "uid" : "9bbf7fd95b77a4b80fedf6c4d33f6adf"
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "2ec0442724a1fe9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384221320,
+      "stop" : 1660384222315,
+      "duration" : 995
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating GET API response for added place\"", "\"End to End (Add > Get > Update > Get Place) Response validations\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "6b3d627c22b3e838",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384222324,
+      "stop" : 1660384223215,
+      "duration" : 891
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Trying to update address for added place\"", "\"End to End (Add > Get > Update > Get Place) Response validations\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "9d35afb543a12587",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384223224,
+      "stop" : 1660384224004,
+      "duration" : 780
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating GET API response after updating address\"", "\"End to End (Add > Get > Update > Get Place) Response validations\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "a3ae2cbc678a1b42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384224012,
+      "stop" : 1660384224790,
+      "duration" : 778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating DELETE API response after deleting place\"", "\"End to End (Delete > Get > Update place) Response Validations\"" ]
+  }, {
+    "name" : "End to End (Delete > Get > Update place) Response Validations",
+    "children" : [ {
+      "name" : "Validating DELETE API response after deleting place",
+      "children" : [ {
+        "name" : "Validating DELETE API response after deleting place",
+        "uid" : "3d784cb083be053d",
+        "parentUid" : "f8592492ee6dade9fecd12ba2686c7fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384224031,
+          "stop" : 1660384224784,
+          "duration" : 753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8592492ee6dade9fecd12ba2686c7fc"
+    }, {
+      "name" : "Validating GET API response after place got deleted",
+      "children" : [ {
+        "name" : "Validating GET API response after place got deleted",
+        "uid" : "b6c71293f58cdf8f",
+        "parentUid" : "61a1d887e181eff44af1976dfa60325c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384224809,
+          "stop" : 1660384225566,
+          "duration" : 757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61a1d887e181eff44af1976dfa60325c"
+    }, {
+      "name" : "Validating PUT API response after place got deleted",
+      "children" : [ {
+        "name" : "Validating PUT API response after place got deleted",
+        "uid" : "b48a38f32b5ddab5",
+        "parentUid" : "95092ec32dabb5ea0106087014399e0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660384225582,
+          "stop" : 1660384226454,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95092ec32dabb5ea0106087014399e0c"
+    } ],
+    "uid" : "99ea184e4717f47d1e15fc90d440b33d"
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "62ecf02aafb4bfe9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384224798,
+      "stop" : 1660384225571,
+      "duration" : 773
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating GET API response after place got deleted\"", "\"End to End (Delete > Get > Update place) Response Validations\"" ]
+  }, {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "936e4202c943dd6c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660384225575,
+      "stop" : 1660384226463,
+      "duration" : 888
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validating PUT API response after place got deleted\"", "\"End to End (Delete > Get > Update place) Response Validations\"" ]
+  } ]
+}

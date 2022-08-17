@@ -1,0 +1,26 @@
+{
+  "total" : 26,
+  "items" : [ {
+    "uid" : "9bbf7fd95b77a4b80fedf6c4d33f6adf",
+    "name" : "End to End (Add > Get > Update > Get Place) Response validations",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "99ea184e4717f47d1e15fc90d440b33d",
+    "name" : "End to End (Delete > Get > Update place) Response Validations",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

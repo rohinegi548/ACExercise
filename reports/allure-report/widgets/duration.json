@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f377408eb075f716",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1660748780825,
+    "stop" : 1660748788529,
+    "duration" : 7704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b36fb27df64f2df",
+  "name" : "Validate GET API response for TM Sandbox Category",
+  "time" : {
+    "start" : 1660748781333,
+    "stop" : 1660748788354,
+    "duration" : 7021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

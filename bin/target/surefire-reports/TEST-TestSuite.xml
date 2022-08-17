@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="268.151" tests="24" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\rohit05\eclipse-workspace\TSBExercise"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\rohit05\eclipse-workspace\TSBExercise"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ROHITN~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\PowerShell\7\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\maven\apache-maven-3.8.6\bin;C:\Allure\allure-2.15.0\bin;C:\Users\rohitnegi01\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rohitnegi01\AppData\Local\Programs\Python\Python39\;C:\Users\rohitnegi01\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;C:\Users\rohitnegi01\AppData\Local\Programs\Python\Python39;C:\Drivers\browsers;;C:\Users\rohitnegi01\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rohitnegi01\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\BrowserStackLocal\;."/>
+    <property name="maven.conf" value="C:\maven\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\maven\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\rohitnegi01"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="rohitnegi01"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test verify"/>
+    <property name="java.home" value="C:\Program Files\RedHat\java-11-openjdk-11.0.5-2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="validateByDefaultRemeberMeCheckBoxIsChecked" classname="com.ui.tests.UITests" time="0.246"/>
+  <testcase name="validateAbleToUncheckRemeberMeCheckBox" classname="com.ui.tests.UITests" time="0.246"/>
+  <testcase name="validCredentialsLogin" classname="com.ui.tests.UITests" time="2.395"/>
+  <testcase name="InvalidCredentialsLogin" classname="com.ui.tests.UITests" time="1.614"/>
+  <testcase name="validEmailInvalidPasswordLogin" classname="com.ui.tests.UITests" time="1.431"/>
+  <testcase name="invalidEmailValidPasswordLogin" classname="com.ui.tests.UITests" time="1.404"/>
+  <testcase name="emptyCredentialsLogin" classname="com.ui.tests.UITests" time="1.322"/>
+  <testcase name="registerNowLinkWorks" classname="com.ui.tests.UITests" time="4.65"/>
+  <testcase name="forgotPasswordLinkWorks" classname="com.ui.tests.UITests" time="6.161"/>
+  <testcase name="cancelButtonWorks" classname="com.ui.tests.UITests" time="4.098"/>
+  <testcase name="troubleLoggingInLinkWorks" classname="com.ui.tests.UITests" time="13.861"/>
+  <testcase name="setupForSearchTest" classname="com.ui.tests.UITests" time="15.682"/>
+  <testcase name="verifySearchForDifferentKeywords" classname="com.ui.tests.UITests" time="36.493"/>
+  <testcase name="verifySearchForDifferentKeywords" classname="com.ui.tests.UITests" time="30.912"/>
+  <testcase name="verifySearchForDifferentKeywords" classname="com.ui.tests.UITests" time="28.459"/>
+  <testcase name="verifySearchForDifferentKeywords" classname="com.ui.tests.UITests" time="38.121">
+    <failure message="No Items found for search keyword, Showing 0 results for &quot;gfggfg&quot; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: No Items found for search keyword, Showing 0 results for "gfggfg" expected [true] but found [false]
+	at com.ui.tests.UITests.verifySearchForDifferentKeywords(UITests.java:136)
+</failure>
+    <system-out><![CDATA[
+Showing 0 results for 'gfggfg' 
+]]></system-out>
+  </testcase>
+  <testcase name="verifySell" classname="com.ui.tests.UITests" time="39.373">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#listing\-title&quot;}&#10;  (Session info: chrome=104.0.5112.81)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;IN-HB8L473&apos;, ip: &apos;192.168.43.116&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ROHITN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a55a786aab197a16a7881dc62f7304fd&#10;*** Element info: {Using=id, value=listing-title}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#listing\-title"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'IN-HB8L473', ip: '192.168.43.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ROHITN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a55a786aab197a16a7881dc62f7304fd
+*** Element info: {Using=id, value=listing-title}
+	at com.ui.tests.UITests.verifySell(UITests.java:149)
+</failure>
+  </testcase>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="6.241"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.999"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.897"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.784"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.782"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.776"/>
+  <testcase name="runScenario" classname="com.api.runner.TestRunner" time="0.891"/>
+</testsuite>

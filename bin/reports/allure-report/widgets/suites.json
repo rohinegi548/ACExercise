@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "b0c1bc0a0453061a2ffe111ff677f308",
+    "name" : "UI Test Suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    }
+  }, {
+    "uid" : "237337d763b0777a36b4e49e880390e6",
+    "name" : "API Automation Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "d56589169c3a297442cec6329977a234",
+    "name" : "End to End (Add > Get > Update > Get Place) Response validations",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "1ed1c3a015436ffc3c4aacd6e9cf0b8c",
+    "name" : "End to End (Delete > Get > Update place) Response Validations",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

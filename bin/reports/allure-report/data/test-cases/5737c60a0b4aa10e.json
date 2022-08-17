@@ -1,0 +1,97 @@
+{
+  "uid" : "5737c60a0b4aa10e",
+  "name" : "Verifying forgot password link works",
+  "fullName" : "com.ui.tests.UITests.forgotPasswordLinkWorks",
+  "historyId" : "fe3b80ce3a4e2e4a615278574be226a",
+  "time" : {
+    "start" : 1660383999709,
+    "stop" : 1660384005865,
+    "duration" : 6156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1660383966363,
+      "stop" : 1660383986047,
+      "duration" : 19684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1660384213211,
+      "stop" : 1660384214245,
+      "duration" : 1034
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testMethod",
+    "value" : "forgotPasswordLinkWorks"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TradeMe Sandbox - Login and Search Test Scenarios"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5737c60a0b4aa10e.json",
+  "parameterValues" : [ "https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx" ]
+}

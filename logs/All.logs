@@ -1,0 +1,72 @@
+2022-08-17 20:08:763 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-17 20:08:771 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-17 20:08:774 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-17 20:08:694 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://api.tmsandbox.co.nz:443
+2022-08-17 20:08:137 DEBUG DefaultClientConnectionOperator:177 - Connecting to api.tmsandbox.co.nz:443
+2022-08-17 20:08:974 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-17 20:08:974 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-17 20:08:982 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-17 20:08:986 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-17 20:08:986 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-17 20:08:986 DEBUG DefaultClientConnection:274 - Sending request: GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2022-08-17 20:08:986 DEBUG wire:73 -  >> "GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1[\r][\n]"
+2022-08-17 20:08:996 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-17 20:08:996 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-17 20:08:996 DEBUG wire:73 -  >> "Host: api.tmsandbox.co.nz[\r][\n]"
+2022-08-17 20:08:996 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-17 20:08:08 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-17 20:08:10 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-17 20:08:11 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-17 20:08:13 DEBUG headers:278 - >> GET /v1/Categories/6327/Details.json?catalogue=false HTTP/1.1
+2022-08-17 20:08:13 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-17 20:08:14 DEBUG headers:281 - >> Accept: */*
+2022-08-17 20:08:14 DEBUG headers:281 - >> Host: api.tmsandbox.co.nz
+2022-08-17 20:08:14 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-17 20:08:18 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-17 20:08:19 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-17 20:08:712 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-17 20:08:719 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2022-08-17 20:08:720 DEBUG wire:73 -  << "Content-Length: 1398[\r][\n]"
+2022-08-17 20:08:721 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2022-08-17 20:08:722 DEBUG wire:73 -  << "ETag: "XrQ7a3WGz9ANtbrp0tIirJIhAM8="[\r][\n]"
+2022-08-17 20:08:722 DEBUG wire:73 -  << "X-Correlation-ID: 833dd265-d0c4-4045-a784-49a162ea06b7[\r][\n]"
+2022-08-17 20:08:723 DEBUG wire:73 -  << "X-Request-ID: ffd9770f-a870-423b-a9bd-51ef0ec445ea[\r][\n]"
+2022-08-17 20:08:725 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-17 20:08:725 DEBUG wire:73 -  << "Access-Control-Expose-Headers: ETag[\r][\n]"
+2022-08-17 20:08:727 DEBUG wire:73 -  << "X-POWERED-BY: [\r][\n]"
+2022-08-17 20:08:728 DEBUG wire:73 -  << "X-ASPNET-VERSION: [\r][\n]"
+2022-08-17 20:08:729 DEBUG wire:73 -  << "Accept-Ranges: bytes[\r][\n]"
+2022-08-17 20:08:729 DEBUG wire:73 -  << "Date: Wed, 17 Aug 2022 15:06:26 GMT[\r][\n]"
+2022-08-17 20:08:732 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2022-08-17 20:08:732 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2022-08-17 20:08:733 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2022-08-17 20:08:735 DEBUG wire:73 -  << "Referrer-Policy: no-referrer[\r][\n]"
+2022-08-17 20:08:735 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-17 20:08:741 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-17 20:08:742 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-17 20:08:744 DEBUG headers:265 - << Connection: keep-alive
+2022-08-17 20:08:744 DEBUG headers:265 - << Content-Length: 1398
+2022-08-17 20:08:745 DEBUG headers:265 - << Content-Type: application/json
+2022-08-17 20:08:745 DEBUG headers:265 - << ETag: "XrQ7a3WGz9ANtbrp0tIirJIhAM8="
+2022-08-17 20:08:746 DEBUG headers:265 - << X-Correlation-ID: 833dd265-d0c4-4045-a784-49a162ea06b7
+2022-08-17 20:08:747 DEBUG headers:265 - << X-Request-ID: ffd9770f-a870-423b-a9bd-51ef0ec445ea
+2022-08-17 20:08:747 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-17 20:08:748 DEBUG headers:265 - << Access-Control-Expose-Headers: ETag
+2022-08-17 20:08:749 DEBUG headers:265 - << X-POWERED-BY: 
+2022-08-17 20:08:750 DEBUG headers:265 - << X-ASPNET-VERSION: 
+2022-08-17 20:08:751 DEBUG headers:265 - << Accept-Ranges: bytes
+2022-08-17 20:08:752 DEBUG headers:265 - << Date: Wed, 17 Aug 2022 15:06:26 GMT
+2022-08-17 20:08:754 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000
+2022-08-17 20:08:754 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2022-08-17 20:08:755 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2022-08-17 20:08:755 DEBUG headers:265 - << Referrer-Policy: no-referrer
+2022-08-17 20:08:768 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2022-08-17 20:08:883 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2022-08-17 20:08:885 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-17 20:08:33 DEBUG wire:87 -  << "{"CategoryId":6327,"Name":"Carbon credits","Path":"\/Business-farming-industry\/Carbon-credits","CanListAuctions":true,"CanListClassifieds":true,"CanRelist":true,"LegalNotice":"Compliance Declaration\u000aI confirm that these carbon credits are certified and registered with a carbon credits registry. ","DefaultDuration":14,"AllowedDurations":[2,3,4,5,6,7,10,14],"Fees":{"Bundle":15.0000,"EndDate":0.2500,"Feature":10.0000,"Gallery":2.0000,"Listing":29.0000,"Reserve":0.2500,"Subtitle":0.5500,"TenDays":0.2500,"ListingFeeTiers":[{"MinimumTierPrice":0,"FixedFee":29.00}],"SecondCategory":0.9900},"FreePhotoCount":20,"MaximumPhotoCount":20,"IsFreeToRelist":true,"Promotions":[{"Id":1,"Name":"Basic","Description":"Lowest position in category","Price":0.0000,"MinimumPhotoCount":0},{"Id":2,"Name":"Gallery","Description":"Good position in category","Price":2.0000,"OriginalPrice":2.0000,"MinimumPhotoCount":0},{"Id":3,"Name":"Feature","Description":"Better position in category","Price":10.0000,"OriginalPrice":10.0000,"Recommended":true,"MinimumPhotoCount":0},{"Id":4,"Name":"Feature Combo","Description":"Best position in category \u000aIncludes benefits of Feature \u000aHighlights listing in search results","Price":15.0000,"OriginalPrice":15.0000,"MinimumPhotoCount":0}],"EmbeddedContentOptions":[],"MaximumTitleLength":80,"AreaOfBusiness":1,"DefaultRelistDuration":7,"CanUse"
+2022-08-17 20:08:35 DEBUG wire:87 -  << "CounterOffers":true}"
+2022-08-17 20:08:36 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3123ba75
+2022-08-17 20:08:37 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2022-08-17 20:08:172 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-17 20:08:172 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-17 20:08:172 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"

@@ -1,0 +1,100 @@
+{
+  "uid" : "6b3d627c22b3e838",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "io.cucumber.testng.AbstractTestNGCucumberTests.runScenario",
+  "historyId" : "d31834b2d78858497226a2e276663c74",
+  "time" : {
+    "start" : 1660384222324,
+    "stop" : 1660384223215,
+    "duration" : 891
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1660384214423,
+      "stop" : 1660384215066,
+      "duration" : 643
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1660384226470,
+      "stop" : 1660384226800,
+      "duration" : 330
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Automation Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Test Scenarios Demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Trying to update address for added place\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"End to End (Add > Get > Update > Get Place) Response validations\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b3d627c22b3e838.json",
+  "parameterValues" : [ "\"Trying to update address for added place\"", "\"End to End (Add > Get > Update > Get Place) Response validations\"" ]
+}

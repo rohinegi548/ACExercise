@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UI_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">UI Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UI_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\rohit05\eclipse-workspace\TSBExercise\Uitests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UI_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UI_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UI_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UI_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UI_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UI_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UI_Test_Suite" class="hide-methods failed suite-UI_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-UI_Test_Suite -->
+                      <a href="#" panel-name="suite-UI_Test_Suite" class="show-methods failed suite-UI_Test_Suite"> (show)</a> <!-- show-methods failed suite-UI_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-UI_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="verifySearchForDifferentKeywords(gfggfg)">verifySearchForDifferentKeywords(gfggfg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="verifySell">verifySell</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UI_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UI_Test_Suite" class="hide-methods passed suite-UI_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-UI_Test_Suite -->
+                      <a href="#" panel-name="suite-UI_Test_Suite" class="show-methods passed suite-UI_Test_Suite"> (show)</a> <!-- show-methods passed suite-UI_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-UI_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="InvalidCredentialsLogin(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)">InvalidCredentialsLogin(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="cancelButtonWorks(TRADEME SANDBOX - Buy online and sell with NZ)">cancelButtonWorks(TRADEME SANDBOX - Buy online and sell with NZ)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="emptyCredentialsLogin(, , This field is required)">emptyCredentialsLogin(, , This field is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="forgotPasswordLinkWorks(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx)">forgotPasswordLinkWorks(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="invalidEmailValidPasswordLogin(invalid_email@hello, validpasswd, Please enter a valid email address)">invalidEmailValidPasswordLogin(invalid_email@hello, validpasswd, Please enter a valid email address)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="registerNowLinkWorks(Trade Me - Register)">registerNowLinkWorks(Trade Me - Register)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="setupForSearchTest">setupForSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="troubleLoggingInLinkWorks(Logging in – Help - Trade Me)">troubleLoggingInLinkWorks(Logging in – Help - Trade Me)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="validCredentialsLogin(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again)">validCredentialsLogin(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="validEmailInvalidPasswordLogin(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)">validEmailInvalidPasswordLogin(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="validateAbleToUncheckRemeberMeCheckBox">validateAbleToUncheckRemeberMeCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="validateByDefaultRemeberMeCheckBoxIsChecked">validateByDefaultRemeberMeCheckBoxIsChecked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="verifySearchForDifferentKeywords(wireless mouse)">verifySearchForDifferentKeywords(wireless mouse)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="verifySearchForDifferentKeywords(thinkpad)">verifySearchForDifferentKeywords(thinkpad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UI_Test_Suite" title="com.ui.tests.UITests" class="method navigator-link" hash-for-method="verifySearchForDifferentKeywords(wireless keyboard)">verifySearchForDifferentKeywords(wireless keyboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UI_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-API_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">API Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-API_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\rohit05\eclipse-workspace\TSBExercise\Apitests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-API_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-API_Automation_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-API_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-API_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-API_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-API_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Automation_Suite" class="hide-methods passed suite-API_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Automation_Suite -->
+                      <a href="#" panel-name="suite-API_Automation_Suite" class="show-methods passed suite-API_Automation_Suite"> (show)</a> <!-- show-methods passed suite-API_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating GET API response after place got deleted&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">runScenario("Validating GET API response after place got deleted", "End to End (Delete > Get > Update place) Res...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating GET API response for added place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Response...)">runScenario("Validating GET API response for added place", "End to End (Add > Get > Update > Get Place) Response...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating DELETE API response after deleting place&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">runScenario("Validating DELETE API response after deleting place", "End to End (Delete > Get > Update place) Res...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Trying to update address for added place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Response va...)">runScenario("Trying to update address for added place", "End to End (Add > Get > Update > Get Place) Response va...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating POST API response for adding place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Respon...)">runScenario("Validating POST API response for adding place", "End to End (Add > Get > Update > Get Place) Respon...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating GET API response after updating address&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) R...)">runScenario("Validating GET API response after updating address", "End to End (Add > Get > Update > Get Place) R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Automation_Suite" title="com.api.runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validating PUT API response after place got deleted&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">runScenario("Validating PUT API response after place got deleted", "End to End (Delete > Get > Update place) Res...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UI_Test_Suite" class="panel UI_Test_Suite">
+          <div class="suite-UI_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ui.tests.UITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchForDifferentKeywords(gfggfg)">
+                  </a> <!-- verifySearchForDifferentKeywords(gfggfg) -->
+                  <span class="method-name">verifySearchForDifferentKeywords</span>
+                  <span class="parameters">(gfggfg)</span>
+                  <div class="stack-trace">java.lang.AssertionError: No Items found for search keyword, Showing 0 results for &quot;gfggfg&quot; expected [true] but found [false]
+	at com.ui.tests.UITests.verifySearchForDifferentKeywords(UITests.java:136)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying able to search for different keywords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySell">
+                  </a> <!-- verifySell -->
+                  <span class="method-name">verifySell</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#listing\-title&quot;}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;IN-HB8L473&apos;, ip: &apos;192.168.43.116&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ROHITN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a55a786aab197a16a7881dc62f7304fd
+*** Element info: {Using=id, value=listing-title}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at com.ui.pages.TradeMe.enterListingTitle(TradeMe.java:49)
+	at com.ui.tests.UITests.verifySell(UITests.java:149)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifying Selling - General Item, This will fail due to Sandbox inconsistencies)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UI_Test_Suite-class-failed -->
+          <div class="suite-UI_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ui.tests.UITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidCredentialsLogin(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)">
+                  </a> <!-- InvalidCredentialsLogin(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again) -->
+                  <span class="method-name">InvalidCredentialsLogin</span>
+                  <span class="parameters">(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</span>
+                  <em>
+(Verifying Login for Invalid Email & Password combination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelButtonWorks(TRADEME SANDBOX - Buy online and sell with NZ)">
+                  </a> <!-- cancelButtonWorks(TRADEME SANDBOX - Buy online and sell with NZ) -->
+                  <span class="method-name">cancelButtonWorks</span>
+                  <span class="parameters">(TRADEME SANDBOX - Buy online and sell with NZ)</span>
+                  <em>
+(Verifying Cancel link works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyCredentialsLogin(, , This field is required)">
+                  </a> <!-- emptyCredentialsLogin(, , This field is required) -->
+                  <span class="method-name">emptyCredentialsLogin</span>
+                  <span class="parameters">(, , This field is required)</span>
+                  <em>
+(Verifying Login for empty credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPasswordLinkWorks(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx)">
+                  </a> <!-- forgotPasswordLinkWorks(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx) -->
+                  <span class="method-name">forgotPasswordLinkWorks</span>
+                  <span class="parameters">(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx)</span>
+                  <em>
+(Verifying forgot password link works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmailValidPasswordLogin(invalid_email@hello, validpasswd, Please enter a valid email address)">
+                  </a> <!-- invalidEmailValidPasswordLogin(invalid_email@hello, validpasswd, Please enter a valid email address) -->
+                  <span class="method-name">invalidEmailValidPasswordLogin</span>
+                  <span class="parameters">(invalid_email@hello, validpasswd, Please enter a valid email address)</span>
+                  <em>
+(Verifying Login for Invalid Email & Valid Password combination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerNowLinkWorks(Trade Me - Register)">
+                  </a> <!-- registerNowLinkWorks(Trade Me - Register) -->
+                  <span class="method-name">registerNowLinkWorks</span>
+                  <span class="parameters">(Trade Me - Register)</span>
+                  <em>
+(Verifying Register now link works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setupForSearchTest">
+                  </a> <!-- setupForSearchTest -->
+                  <span class="method-name">setupForSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="troubleLoggingInLinkWorks(Logging in – Help - Trade Me)">
+                  </a> <!-- troubleLoggingInLinkWorks(Logging in – Help - Trade Me) -->
+                  <span class="method-name">troubleLoggingInLinkWorks</span>
+                  <span class="parameters">(Logging in – Help - Trade Me)</span>
+                  <em>
+(Verifying Having trouble in logging link works)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredentialsLogin(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again)">
+                  </a> <!-- validCredentialsLogin(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again) -->
+                  <span class="method-name">validCredentialsLogin</span>
+                  <span class="parameters">(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again)</span>
+                  <em>
+(Verifying Login for Valid Email & Password combination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validEmailInvalidPasswordLogin(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)">
+                  </a> <!-- validEmailInvalidPasswordLogin(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again) -->
+                  <span class="method-name">validEmailInvalidPasswordLogin</span>
+                  <span class="parameters">(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</span>
+                  <em>
+(Verifying Login for Valid Email & Invalid Password combination)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAbleToUncheckRemeberMeCheckBox">
+                  </a> <!-- validateAbleToUncheckRemeberMeCheckBox -->
+                  <span class="method-name">validateAbleToUncheckRemeberMeCheckBox</span>
+                  <em>
+(Verifying Able to uncheck Remember Me)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateByDefaultRemeberMeCheckBoxIsChecked">
+                  </a> <!-- validateByDefaultRemeberMeCheckBoxIsChecked -->
+                  <span class="method-name">validateByDefaultRemeberMeCheckBoxIsChecked</span>
+                  <em>
+(Verifying By default Remember Me is selected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchForDifferentKeywords(wireless mouse)">
+                  </a> <!-- verifySearchForDifferentKeywords(wireless mouse) -->
+                  <span class="method-name">verifySearchForDifferentKeywords</span>
+                  <span class="parameters">(wireless mouse)</span>
+                  <em>
+(Verifying able to search for different keywords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchForDifferentKeywords(thinkpad)">
+                  </a> <!-- verifySearchForDifferentKeywords(thinkpad) -->
+                  <span class="method-name">verifySearchForDifferentKeywords</span>
+                  <span class="parameters">(thinkpad)</span>
+                  <em>
+(Verifying able to search for different keywords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchForDifferentKeywords(wireless keyboard)">
+                  </a> <!-- verifySearchForDifferentKeywords(wireless keyboard) -->
+                  <span class="method-name">verifySearchForDifferentKeywords</span>
+                  <span class="parameters">(wireless keyboard)</span>
+                  <em>
+(Verifying able to search for different keywords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UI_Test_Suite-class-passed -->
+        </div> <!-- panel UI_Test_Suite -->
+        <div panel-name="suite-API_Automation_Suite" class="panel API_Automation_Suite">
+          <div class="suite-API_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating GET API response after place got deleted&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">
+                  </a> <!-- runScenario("Validating GET API response after place got deleted", "End to End (Delete > Get > Update place) Res...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating GET API response after place got deleted", "End to End (Delete > Get > Update place) Response Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating GET API response for added place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Response...)">
+                  </a> <!-- runScenario("Validating GET API response for added place", "End to End (Add > Get > Update > Get Place) Response...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating GET API response for added place", "End to End (Add > Get > Update > Get Place) Response validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating DELETE API response after deleting place&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">
+                  </a> <!-- runScenario("Validating DELETE API response after deleting place", "End to End (Delete > Get > Update place) Res...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating DELETE API response after deleting place", "End to End (Delete > Get > Update place) Response Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Trying to update address for added place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Response va...)">
+                  </a> <!-- runScenario("Trying to update address for added place", "End to End (Add > Get > Update > Get Place) Response va...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Trying to update address for added place", "End to End (Add > Get > Update > Get Place) Response validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating POST API response for adding place&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) Respon...)">
+                  </a> <!-- runScenario("Validating POST API response for adding place", "End to End (Add > Get > Update > Get Place) Respon...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating POST API response for adding place", "End to End (Add > Get > Update > Get Place) Response validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating GET API response after updating address&quot;, &quot;End to End (Add &gt; Get &gt; Update &gt; Get Place) R...)">
+                  </a> <!-- runScenario("Validating GET API response after updating address", "End to End (Add > Get > Update > Get Place) R...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating GET API response after updating address", "End to End (Add > Get > Update > Get Place) Response validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validating PUT API response after place got deleted&quot;, &quot;End to End (Delete &gt; Get &gt; Update place) Res...)">
+                  </a> <!-- runScenario("Validating PUT API response after place got deleted", "End to End (Delete > Get > Update place) Res...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validating PUT API response after place got deleted", "End to End (Delete > Get > Update place) Response Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Suite-class-passed -->
+        </div> <!-- panel API_Automation_Suite -->
+        <div panel-name="test-xml-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rohit05\eclipse-workspace\TSBExercise\Uitests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;UI Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TradeMe Sandbox - Login and Search Test Scenarios&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ui.tests.UITests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TradeMe Sandbox - Login and Search Test Scenarios --&gt;
+&lt;/suite&gt; &lt;!-- UI Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rohit05\eclipse-workspace\TSBExercise\Apitests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;API Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Test Scenarios Demo&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Test Scenarios Demo --&gt;
+&lt;/suite&gt; &lt;!-- API Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TradeMe Sandbox - Login and Search Test Scenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Test Scenarios Demo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UI_Test_Suite');
+function tableData_UI_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySell')
+data.setCell(0, 2, 'com.ui.tests.UITests')
+data.setCell(0, 3, 39373);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySearchForDifferentKeywords')
+data.setCell(1, 2, 'com.ui.tests.UITests')
+data.setCell(1, 3, 38096);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySearchForDifferentKeywords')
+data.setCell(2, 2, 'com.ui.tests.UITests')
+data.setCell(2, 3, 36493);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchForDifferentKeywords')
+data.setCell(3, 2, 'com.ui.tests.UITests')
+data.setCell(3, 3, 30911);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchForDifferentKeywords')
+data.setCell(4, 2, 'com.ui.tests.UITests')
+data.setCell(4, 3, 28458);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'setupForSearchTest')
+data.setCell(5, 2, 'com.ui.tests.UITests')
+data.setCell(5, 3, 15682);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'troubleLoggingInLinkWorks')
+data.setCell(6, 2, 'com.ui.tests.UITests')
+data.setCell(6, 3, 13861);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'forgotPasswordLinkWorks')
+data.setCell(7, 2, 'com.ui.tests.UITests')
+data.setCell(7, 3, 6161);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registerNowLinkWorks')
+data.setCell(8, 2, 'com.ui.tests.UITests')
+data.setCell(8, 3, 4649);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'cancelButtonWorks')
+data.setCell(9, 2, 'com.ui.tests.UITests')
+data.setCell(9, 3, 4097);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validCredentialsLogin')
+data.setCell(10, 2, 'com.ui.tests.UITests')
+data.setCell(10, 3, 2395);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'InvalidCredentialsLogin')
+data.setCell(11, 2, 'com.ui.tests.UITests')
+data.setCell(11, 3, 1613);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validEmailInvalidPasswordLogin')
+data.setCell(12, 2, 'com.ui.tests.UITests')
+data.setCell(12, 3, 1431);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invalidEmailValidPasswordLogin')
+data.setCell(13, 2, 'com.ui.tests.UITests')
+data.setCell(13, 3, 1404);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'emptyCredentialsLogin')
+data.setCell(14, 2, 'com.ui.tests.UITests')
+data.setCell(14, 3, 1322);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateByDefaultRemeberMeCheckBoxIsChecked')
+data.setCell(15, 2, 'com.ui.tests.UITests')
+data.setCell(15, 3, 248);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateAbleToUncheckRemeberMeCheckBox')
+data.setCell(16, 2, 'com.ui.tests.UITests')
+data.setCell(16, 3, 247);
+window.suiteTableData['UI_Test_Suite']= { tableData: data, tableDiv: 'times-div-UI_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-UI_Test_Suite">
+              </div> <!-- times-div-UI_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Automation_Suite');
+function tableData_API_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.api.runner.TestRunner')
+data.setCell(0, 3, 6242);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.api.runner.TestRunner')
+data.setCell(1, 3, 1000);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.api.runner.TestRunner')
+data.setCell(2, 3, 896);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.api.runner.TestRunner')
+data.setCell(3, 3, 890);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.api.runner.TestRunner')
+data.setCell(4, 3, 785);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.api.runner.TestRunner')
+data.setCell(5, 3, 781);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.api.runner.TestRunner')
+data.setCell(6, 3, 777);
+window.suiteTableData['API_Automation_Suite']= { tableData: data, tableDiv: 'times-div-API_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-API_Automation_Suite">
+              </div> <!-- times-div-API_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UI Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UI_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ui.tests.UITests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateByDefaultRemeberMeCheckBoxIsChecked</span>
+                <span class="method-start">19753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAbleToUncheckRemeberMeCheckBox</span>
+                <span class="method-start">20247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validCredentialsLogin(valid_email@hello.com, validpasswd, Please complete Google reCAPTCHA and try again)</span>
+                <span class="method-start">20526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidCredentialsLogin(invalid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</span>
+                <span class="method-start">22923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validEmailInvalidPasswordLogin(valid_email@hello.com, invalidpasswd, Please complete Google reCAPTCHA and try again)</span>
+                <span class="method-start">24539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailValidPasswordLogin(invalid_email@hello, validpasswd, Please enter a valid email address)</span>
+                <span class="method-start">25972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emptyCredentialsLogin(, , This field is required)</span>
+                <span class="method-start">27379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerNowLinkWorks(Trade Me - Register)</span>
+                <span class="method-start">28704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotPasswordLinkWorks(https://www.tmsandbox.co.nz/Members/PasswordReminder.aspx)</span>
+                <span class="method-start">33386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelButtonWorks(TRADEME SANDBOX - Buy online and sell with NZ)</span>
+                <span class="method-start">39551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">troubleLoggingInLinkWorks(Logging in – Help - Trade Me)</span>
+                <span class="method-start">43651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setupForSearchTest</span>
+                <span class="method-start">57517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchForDifferentKeywords(thinkpad)</span>
+                <span class="method-start">73207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchForDifferentKeywords(wireless mouse)</span>
+                <span class="method-start">109702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchForDifferentKeywords(wireless keyboard)</span>
+                <span class="method-start">140616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchForDifferentKeywords(gfggfg)</span>
+                <span class="method-start">169079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySell</span>
+                <span class="method-start">207512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">246890 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating POST API response for adding place", "End to End (Add > Get > Update > Get Place) Respon...)</span>
+                <span class="method-start">646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating GET API response for added place", "End to End (Add > Get > Update > Get Place) Response...)</span>
+                <span class="method-start">6892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Trying to update address for added place", "End to End (Add > Get > Update > Get Place) Response va...)</span>
+                <span class="method-start">7896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating GET API response after updating address", "End to End (Add > Get > Update > Get Place) R...)</span>
+                <span class="method-start">8796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating DELETE API response after deleting place", "End to End (Delete > Get > Update place) Res...)</span>
+                <span class="method-start">9586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating GET API response after place got deleted", "End to End (Delete > Get > Update place) Res...)</span>
+                <span class="method-start">10371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validating PUT API response after place got deleted", "End to End (Delete > Get > Update place) Res...)</span>
+                <span class="method-start">11150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">12045 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

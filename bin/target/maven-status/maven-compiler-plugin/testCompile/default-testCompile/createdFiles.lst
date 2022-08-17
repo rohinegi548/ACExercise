@@ -1,0 +1,10 @@
+com\api\resources\ApiResStatCodes.class
+com\api\stepdefinitions\stepDefinitions.class
+com\api\resources\ApiUtils.class
+com\api\stepdefinitions\Hooks.class
+com\ui\resources\UIDataprovider.class
+com\api\resources\ApiLogger.class
+com\api\resources\ExcelDriven.class
+com\api\runner\TestRunner.class
+com\api\resources\ApiTestDataBuilder.class
+com\ui\tests\UITests.class

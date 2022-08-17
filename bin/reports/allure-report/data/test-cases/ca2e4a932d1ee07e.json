@@ -1,0 +1,97 @@
+{
+  "uid" : "ca2e4a932d1ee07e",
+  "name" : "Verifying able to search for different keywords",
+  "fullName" : "com.ui.tests.UITests.verifySearchForDifferentKeywords",
+  "historyId" : "5316a6e0c09ff90514dca2eebfa671c4",
+  "time" : {
+    "start" : 1660384039531,
+    "stop" : 1660384076017,
+    "duration" : 36486
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1660383966363,
+      "stop" : 1660383986047,
+      "duration" : 19684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1660384213211,
+      "stop" : 1660384214245,
+      "duration" : 1034
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySearchForDifferentKeywords"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TradeMe Sandbox - Login and Search Test Scenarios"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "thinkpad"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca2e4a932d1ee07e.json",
+  "parameterValues" : [ "thinkpad" ]
+}

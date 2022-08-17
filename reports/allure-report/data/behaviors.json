@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Runs Cucumber Scenarios",
+    "uid" : "f377408eb075f716",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660748780825,
+      "stop" : 1660748788529,
+      "duration" : 7704
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"Validate GET API response for TM Sandbox Category\"", "\"Validation of GET Category API\"" ]
+  }, {
+    "name" : "Validation of GET Category API",
+    "children" : [ {
+      "name" : "Validate GET API response for TM Sandbox Category",
+      "children" : [ {
+        "name" : "Validate GET API response for TM Sandbox Category",
+        "uid" : "2b36fb27df64f2df",
+        "parentUid" : "ce0b6f20d8ee46bdb10574e63184f861",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660748781333,
+          "stop" : 1660748788354,
+          "duration" : 7021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce0b6f20d8ee46bdb10574e63184f861"
+    } ],
+    "uid" : "d842f367166cd7bb590e5220c13be4ed"
+  } ]
+}

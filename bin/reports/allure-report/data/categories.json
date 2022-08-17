@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "No Items found for search keyword, Showing 0 results for \"gfggfg\" expected [true] but found [false]",
+      "children" : [ {
+        "name" : "Verifying able to search for different keywords",
+        "uid" : "1ad7ca54a58723bd",
+        "parentUid" : "9ca91b661e46ac5f89ab18214b351c6c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660384135403,
+          "stop" : 1660384173528,
+          "duration" : 38125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "gfggfg" ]
+      } ],
+      "uid" : "9ca91b661e46ac5f89ab18214b351c6c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#listing\\-title\"}\n  (Session info: chrome=104.0.5112.81)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'\nSystem info: host: 'IN-HB8L473', ip: '192.168.43.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\ROHITN~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a55a786aab197a16a7881dc62f7304fd\n*** Element info: {Using=id, value=listing-title}",
+      "children" : [ {
+        "name" : "Verifying Selling - General Item, This will fail due to Sandbox inconsistencies",
+        "uid" : "3a5a392ef819c5c6",
+        "parentUid" : "79a8454e8fd0c42aa8fff34a54949b80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660384173835,
+          "stop" : 1660384213206,
+          "duration" : 39371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79a8454e8fd0c42aa8fff34a54949b80"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

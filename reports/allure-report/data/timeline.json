@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IN-HB8L473",
+    "children" : [ {
+      "name" : "12888@IN-HB8L473.main(1)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "f377408eb075f716",
+        "parentUid" : "304c824812887fa4ea19be42c83ab6dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660748780825,
+          "stop" : 1660748788529,
+          "duration" : 7704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "\"Validate GET API response for TM Sandbox Category\"", "\"Validation of GET Category API\"" ]
+      }, {
+        "name" : "Validate GET API response for TM Sandbox Category",
+        "uid" : "2b36fb27df64f2df",
+        "parentUid" : "304c824812887fa4ea19be42c83ab6dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660748781333,
+          "stop" : 1660748788354,
+          "duration" : 7021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "304c824812887fa4ea19be42c83ab6dc"
+    } ],
+    "uid" : "054267d9117d2f48054f20917056e50e"
+  } ]
+}

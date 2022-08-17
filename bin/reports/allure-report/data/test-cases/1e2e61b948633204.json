@@ -1,0 +1,97 @@
+{
+  "uid" : "1e2e61b948633204",
+  "name" : "Verifying Cancel link works",
+  "fullName" : "com.ui.tests.UITests.cancelButtonWorks",
+  "historyId" : "986c7f5c8bdc197fafa865c0327a1947",
+  "time" : {
+    "start" : 1660384005875,
+    "stop" : 1660384009965,
+    "duration" : 4090
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1660383966363,
+      "stop" : 1660383986047,
+      "duration" : 19684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1660384213211,
+      "stop" : 1660384214245,
+      "duration" : 1034
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancelButtonWorks"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TradeMe Sandbox - Login and Search Test Scenarios"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "TRADEME SANDBOX - Buy online and sell with NZ"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e2e61b948633204.json",
+  "parameterValues" : [ "TRADEME SANDBOX - Buy online and sell with NZ" ]
+}

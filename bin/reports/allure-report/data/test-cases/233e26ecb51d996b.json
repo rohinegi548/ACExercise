@@ -1,0 +1,103 @@
+{
+  "uid" : "233e26ecb51d996b",
+  "name" : "Verifying Login for Invalid Email & Password combination",
+  "fullName" : "com.ui.tests.UITests.InvalidCredentialsLogin",
+  "historyId" : "51627de8945fd6e00384acd50f3f9f92",
+  "time" : {
+    "start" : 1660383989243,
+    "stop" : 1660383990854,
+    "duration" : 1611
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1660383966363,
+      "stop" : 1660383986047,
+      "duration" : 19684
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1660384213211,
+      "stop" : 1660384214245,
+      "duration" : 1034
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "testMethod",
+    "value" : "InvalidCredentialsLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "UI Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "TradeMe Sandbox - Login and Search Test Scenarios"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ui.tests.UITests"
+  }, {
+    "name" : "host",
+    "value" : "IN-HB8L473"
+  }, {
+    "name" : "thread",
+    "value" : "10732@IN-HB8L473.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "invalid_email@hello.com"
+  }, {
+    "name" : "arg1",
+    "value" : "invalidpasswd"
+  }, {
+    "name" : "arg2",
+    "value" : "Please complete Google reCAPTCHA and try again"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "233e26ecb51d996b.json",
+  "parameterValues" : [ "invalid_email@hello.com", "invalidpasswd", "Please complete Google reCAPTCHA and try again" ]
+}

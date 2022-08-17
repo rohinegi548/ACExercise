@@ -1,0 +1,39 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.api.runner.TestRunner",
+    "children" : [ {
+      "name" : "runScenario",
+      "uid" : "f377408eb075f716",
+      "parentUid" : "b9bcf645e7fdb5f249be7b6113b6e430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660748780825,
+        "stop" : 1660748788529,
+        "duration" : 7704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "\"Validate GET API response for TM Sandbox Category\"", "\"Validation of GET Category API\"" ]
+    } ],
+    "uid" : "com.api.runner.TestRunner"
+  }, {
+    "name" : "src.test.java.com.api.features.SanboxApiValidation_feature.Validation of GET Category API",
+    "children" : [ {
+      "name" : "Validate GET API response for TM Sandbox Category",
+      "uid" : "2b36fb27df64f2df",
+      "parentUid" : "9317a9212c93c84c87868dab33ac7050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660748781333,
+        "stop" : 1660748788354,
+        "duration" : 7021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.java.com.api.features.SanboxApiValidation_feature.Validation of GET Category API"
+  } ]
+}

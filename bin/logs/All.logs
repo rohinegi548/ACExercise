@@ -1,0 +1,443 @@
+2022-08-13 15:08:614 INFO  CommonUtil:25 - waiting for element visibilityOf..
+2022-08-13 15:08:46 INFO  CommonUtil:28 - element is visible..
+2022-08-13 15:08:156 INFO  CommonUtil:25 - waiting for element visibilityOf..
+2022-08-13 15:08:287 INFO  CommonUtil:28 - element is visible..
+2022-08-13 15:08:799 INFO  CommonUtil:25 - waiting for element visibilityOf..
+2022-08-13 15:08:903 INFO  CommonUtil:28 - element is visible..
+2022-08-13 15:08:531 INFO  CommonUtil:25 - waiting for element visibilityOf..
+2022-08-13 15:08:171 INFO  CommonUtil:28 - element is visible..
+2022-08-13 15:08:24 INFO  CommonUtil:25 - waiting for element visibilityOf..
+2022-08-13 15:08:111 INFO  CommonUtil:28 - element is visible..
+2022-08-13 15:08:474 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:477 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:480 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:599 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:746 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:159 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:165 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:165 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:167 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:167 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:168 DEBUG DefaultClientConnection:274 - Sending request: POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2022-08-13 15:08:168 DEBUG wire:73 -  >> "POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2022-08-13 15:08:171 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:172 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:172 DEBUG wire:73 -  >> "Content-Length: 235[\r][\n]"
+2022-08-13 15:08:172 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:173 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:173 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:173 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:175 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:175 DEBUG headers:278 - >> POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2022-08-13 15:08:175 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:176 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:176 DEBUG headers:281 - >> Content-Length: 235
+2022-08-13 15:08:176 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:176 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:177 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:177 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:178 DEBUG wire:87 -  >> "{"accuracy":50,"name":"Gablo Anderson","phone_number":"(+91) 983 893 3937","address":"South BLVD. Ave 22","website":"http://google.com","language":"Spanish-IN","location":{"lat":-38.383494,"lng":33.427362},"types":["shoe park","shop"]}"
+2022-08-13 15:08:289 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-13 15:08:293 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:20 GMT[\r][\n]"
+2022-08-13 15:08:294 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:296 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:297 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:298 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:298 DEBUG wire:73 -  << "Content-Length: 194[\r][\n]"
+2022-08-13 15:08:299 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:300 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:301 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:302 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:305 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-13 15:08:306 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-13 15:08:307 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:20 GMT
+2022-08-13 15:08:308 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:308 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:308 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:308 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:308 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:308 DEBUG headers:265 - << Content-Length: 194
+2022-08-13 15:08:308 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:308 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:308 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:334 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:387 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:388 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:525 DEBUG wire:87 -  << "{"status":"OK","place_id":"a62b186315eca9117d46299ad378fc81","scope":"APP","reference":"903caca6378ebd8b7c1debc04e8ee4ca903caca6378ebd8b7c1debc04e8ee4ca","id":"903caca6378ebd8b7c1debc04e8ee4ca"}"
+2022-08-13 15:08:528 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4ba56bbe
+2022-08-13 15:08:528 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:560 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:560 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:561 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:398 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:398 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:399 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:502 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:509 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:823 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:824 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:825 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:825 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:825 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:826 DEBUG DefaultClientConnection:274 - Sending request: GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:826 DEBUG wire:73 -  >> "GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1[\r][\n]"
+2022-08-13 15:08:826 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:826 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:828 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:828 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:829 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:830 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:831 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:831 DEBUG headers:278 - >> GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:832 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:832 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:833 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:833 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:833 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:833 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:113 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-13 15:08:129 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:21 GMT[\r][\n]"
+2022-08-13 15:08:130 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:131 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:133 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:134 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:134 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:135 DEBUG wire:73 -  << "Content-Length: 250[\r][\n]"
+2022-08-13 15:08:135 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:135 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:135 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:138 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:139 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-13 15:08:139 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-13 15:08:139 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:21 GMT
+2022-08-13 15:08:139 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:142 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:142 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:143 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:143 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:143 DEBUG headers:265 - << Content-Length: 250
+2022-08-13 15:08:143 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:143 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:146 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:147 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:148 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:149 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:164 DEBUG wire:87 -  << "{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Gablo Anderson","phone_number":"(+91) 983 893 3937","address":"South BLVD. Ave 22","types":"shoe park,shop","website":"http:\/\/google.com","language":"Spanish-IN"}"
+2022-08-13 15:08:166 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@29483d10
+2022-08-13 15:08:166 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:167 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:167 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:167 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:449 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:450 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:450 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:483 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:483 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:678 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:679 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:679 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:680 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:680 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:680 DEBUG DefaultClientConnection:274 - Sending request: PUT /maps/api/place/update/json HTTP/1.1
+2022-08-13 15:08:680 DEBUG wire:73 -  >> "PUT /maps/api/place/update/json HTTP/1.1[\r][\n]"
+2022-08-13 15:08:680 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "Content-Length: 101[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:682 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:682 DEBUG headers:278 - >> PUT /maps/api/place/update/json HTTP/1.1
+2022-08-13 15:08:682 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:684 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:684 DEBUG headers:281 - >> Content-Length: 101
+2022-08-13 15:08:684 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:685 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:685 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:685 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:686 DEBUG wire:87 -  >> "{"place_id":"a62b186315eca9117d46299ad378fc81","address":"South Carolina, AVe 10","key":"qaclick123"}"
+2022-08-13 15:08:49 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-13 15:08:49 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:22 GMT[\r][\n]"
+2022-08-13 15:08:49 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:49 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:52 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:53 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:53 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:54 DEBUG wire:73 -  << "Content-Length: 38[\r][\n]"
+2022-08-13 15:08:54 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:55 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:56 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:56 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:58 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-13 15:08:58 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-13 15:08:59 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:22 GMT
+2022-08-13 15:08:59 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:59 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:59 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:59 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:59 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:59 DEBUG headers:265 - << Content-Length: 38
+2022-08-13 15:08:59 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:59 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:59 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:59 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:84 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:85 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:88 DEBUG wire:87 -  << "{"msg":"Address successfully updated"}"
+2022-08-13 15:08:92 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6b5e8b3a
+2022-08-13 15:08:93 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:94 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:94 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:96 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:284 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:285 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:285 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:346 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:346 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:579 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:581 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:581 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:581 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:582 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:582 DEBUG DefaultClientConnection:274 - Sending request: GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:582 DEBUG wire:73 -  >> "GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1[\r][\n]"
+2022-08-13 15:08:583 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:583 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:583 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:584 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:585 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:585 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:585 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:586 DEBUG headers:278 - >> GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:586 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:586 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:586 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:586 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:586 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:587 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:869 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:23 GMT[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Content-Length: 254[\r][\n]"
+2022-08-13 15:08:869 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:875 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:875 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:876 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:877 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-13 15:08:878 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-13 15:08:879 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:23 GMT
+2022-08-13 15:08:880 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:880 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:882 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:883 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:883 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:884 DEBUG headers:265 - << Content-Length: 254
+2022-08-13 15:08:884 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:885 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:886 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:887 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:889 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:889 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:889 DEBUG wire:87 -  << "{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Gablo Anderson","phone_number":"(+91) 983 893 3937","address":"South Carolina, AVe 10","types":"shoe park,shop","website":"http:\/\/google.com","language":"Spanish-IN"}"
+2022-08-13 15:08:892 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4d462edc
+2022-08-13 15:08:893 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:895 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:896 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:896 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:48 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:49 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:49 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:66 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:66 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:278 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:278 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:279 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:279 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:281 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:282 DEBUG DefaultClientConnection:274 - Sending request: DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2022-08-13 15:08:282 DEBUG wire:73 -  >> "DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2022-08-13 15:08:282 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:283 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:283 DEBUG wire:73 -  >> "Content-Length: 52[\r][\n]"
+2022-08-13 15:08:285 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:286 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:286 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:286 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:286 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:286 DEBUG headers:278 - >> DELETE /maps/api/place/delete/json?key=qaclick123 HTTP/1.1
+2022-08-13 15:08:289 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:290 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:290 DEBUG headers:281 - >> Content-Length: 52
+2022-08-13 15:08:291 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:291 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:291 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:291 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:291 DEBUG wire:73 -  >> "{[\r][\n]"
+2022-08-13 15:08:294 DEBUG wire:73 -  >> "[0x9]"place_id":"a62b186315eca9117d46299ad378fc81"[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:87 -  >> "}"
+2022-08-13 15:08:687 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2022-08-13 15:08:688 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:24 GMT[\r][\n]"
+2022-08-13 15:08:689 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:690 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:691 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:691 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:692 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:692 DEBUG wire:73 -  << "Content-Length: 15[\r][\n]"
+2022-08-13 15:08:693 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:693 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:694 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:694 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:695 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2022-08-13 15:08:695 DEBUG headers:262 - << HTTP/1.1 200 OK
+2022-08-13 15:08:695 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:24 GMT
+2022-08-13 15:08:695 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:695 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:695 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:698 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:698 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:699 DEBUG headers:265 - << Content-Length: 15
+2022-08-13 15:08:699 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:699 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:699 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:699 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:699 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:699 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:699 DEBUG wire:87 -  << "{"status":"OK"}"
+2022-08-13 15:08:715 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@57d71569
+2022-08-13 15:08:716 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:718 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:719 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:719 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:875 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:877 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:878 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:936 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:937 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:183 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:184 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:185 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:185 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:185 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:185 DEBUG DefaultClientConnection:274 - Sending request: GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:185 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:192 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:193 DEBUG headers:278 - >> GET /maps/api/place/get/json?key=qaclick123&place_id=a62b186315eca9117d46299ad378fc81 HTTP/1.1
+2022-08-13 15:08:194 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:194 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:194 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:194 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:194 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:194 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:506 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2022-08-13 15:08:506 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:25 GMT[\r][\n]"
+2022-08-13 15:08:506 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:506 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Content-Length: 67[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:507 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:507 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
+2022-08-13 15:08:507 DEBUG headers:262 - << HTTP/1.1 404 Not Found
+2022-08-13 15:08:507 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:25 GMT
+2022-08-13 15:08:507 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:507 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:507 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:507 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:507 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:507 DEBUG headers:265 - << Content-Length: 67
+2022-08-13 15:08:507 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:507 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:507 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:512 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:517 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:517 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:517 DEBUG wire:87 -  << "{"msg":"Get operation failed, looks like place_id  doesn't exists"}"
+2022-08-13 15:08:517 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f243d5c
+2022-08-13 15:08:517 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:517 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:517 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:517 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:597 DEBUG cache:44 - Couldn't find template in cache for "http-request.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:599 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+2022-08-13 15:08:600 DEBUG cache:44 - Loading template for "http-request.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-request.ftl"
+2022-08-13 15:08:618 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://rahulshettyacademy.com:443
+2022-08-13 15:08:619 DEBUG DefaultClientConnectionOperator:177 - Connecting to rahulshettyacademy.com:443
+2022-08-13 15:08:941 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2022-08-13 15:08:942 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2022-08-13 15:08:943 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2022-08-13 15:08:944 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2022-08-13 15:08:946 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2022-08-13 15:08:947 DEBUG DefaultClientConnection:274 - Sending request: PUT /maps/api/place/update/json HTTP/1.1
+2022-08-13 15:08:948 DEBUG wire:73 -  >> "PUT /maps/api/place/update/json HTTP/1.1[\r][\n]"
+2022-08-13 15:08:950 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2022-08-13 15:08:951 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2022-08-13 15:08:952 DEBUG wire:73 -  >> "Content-Length: 101[\r][\n]"
+2022-08-13 15:08:953 DEBUG wire:73 -  >> "Host: rahulshettyacademy.com[\r][\n]"
+2022-08-13 15:08:954 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:955 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)[\r][\n]"
+2022-08-13 15:08:956 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-08-13 15:08:958 DEBUG wire:73 -  >> "[\r][\n]"
+2022-08-13 15:08:959 DEBUG headers:278 - >> PUT /maps/api/place/update/json HTTP/1.1
+2022-08-13 15:08:960 DEBUG headers:281 - >> Accept: */*
+2022-08-13 15:08:960 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2022-08-13 15:08:962 DEBUG headers:281 - >> Content-Length: 101
+2022-08-13 15:08:963 DEBUG headers:281 - >> Host: rahulshettyacademy.com
+2022-08-13 15:08:964 DEBUG headers:281 - >> Connection: Keep-Alive
+2022-08-13 15:08:965 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.5)
+2022-08-13 15:08:967 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2022-08-13 15:08:968 DEBUG wire:87 -  >> "{"place_id":"a62b186315eca9117d46299ad378fc81","address":"South Carolina, AVe 10","key":"qaclick123"}"
+2022-08-13 15:08:293 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2022-08-13 15:08:294 DEBUG wire:73 -  << "Date: Sat, 13 Aug 2022 09:50:26 GMT[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Server: Apache/2.4.41 (Ubuntu)[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Access-Control-Max-Age: 3600[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Content-Length: 77[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Connection: Keep-Alive[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2022-08-13 15:08:295 DEBUG wire:73 -  << "[\r][\n]"
+2022-08-13 15:08:295 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
+2022-08-13 15:08:295 DEBUG headers:262 - << HTTP/1.1 404 Not Found
+2022-08-13 15:08:295 DEBUG headers:265 - << Date: Sat, 13 Aug 2022 09:50:26 GMT
+2022-08-13 15:08:295 DEBUG headers:265 - << Server: Apache/2.4.41 (Ubuntu)
+2022-08-13 15:08:304 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2022-08-13 15:08:305 DEBUG headers:265 - << Access-Control-Allow-Methods: POST
+2022-08-13 15:08:306 DEBUG headers:265 - << Access-Control-Max-Age: 3600
+2022-08-13 15:08:306 DEBUG headers:265 - << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2022-08-13 15:08:307 DEBUG headers:265 - << Content-Length: 77
+2022-08-13 15:08:308 DEBUG headers:265 - << Keep-Alive: timeout=5, max=100
+2022-08-13 15:08:308 DEBUG headers:265 - << Connection: Keep-Alive
+2022-08-13 15:08:311 DEBUG headers:265 - << Content-Type: application/json;charset=UTF-8
+2022-08-13 15:08:312 DEBUG DefaultHttpClient:509 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:313 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json;charset=UTF-8
+2022-08-13 15:08:314 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2022-08-13 15:08:316 DEBUG wire:87 -  << "{"msg":"Update address operation failed, looks like the data doesn't exists"}"
+2022-08-13 15:08:330 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@316975be
+2022-08-13 15:08:331 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive for 5000 MILLISECONDS
+2022-08-13 15:08:333 DEBUG cache:44 - Couldn't find template in cache for "http-response.ftl"("en_US", Cp1252, parsed); will try to load it.
+2022-08-13 15:08:334 DEBUG cache:44 - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+2022-08-13 15:08:334 DEBUG cache:44 - Loading template for "http-response.ftl"("en_US", Cp1252, parsed) from "jar:file:/C:/Users/rohitnegi01/.m2/repository/io/qameta/allure/allure-attachments/2.13.3/allure-attachments-2.13.3.jar!/tpl/http-response.ftl"
+2022-08-13 15:08:553 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63631<->3.110.88.201:443 closed
+2022-08-13 15:08:561 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63640<->3.110.88.201:443 closed
+2022-08-13 15:08:564 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63633<->3.110.88.201:443 closed
+2022-08-13 15:08:565 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63635<->3.110.88.201:443 closed
+2022-08-13 15:08:568 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63638<->3.110.88.201:443 closed
+2022-08-13 15:08:571 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:63636<->3.110.88.201:443 closed

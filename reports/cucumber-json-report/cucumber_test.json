@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-17T15:06:21.144Z",
+        "line": 3,
+        "name": "Validate GET API response for TM Sandbox Category",
+        "description": "",
+        "id": "validation-of-get-category-api;validate-get-api-response-for-tm-sandbox-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1624724200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User hit the API to get details for category \"6327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6327\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.user_hit_the_API_to_get_details_for_category(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4239283300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User calls \"GetCategoryAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetCategoryAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.user_calls_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7228100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The API call got success with status code \"StatCode200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"StatCode200\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.The_API_call_got_success_with_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 682263000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Name\" field is having value \"Carbon credits\" present in API response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Carbon credits\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.field_is_having_value_present_in_API_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82052500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"CanRelist\" field is having value as true present in API response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CanRelist\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.field_is_having_value_as_true_present_in_API_response(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360126900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The Promotions element with Name \"Gallery\" has a Description that contains the text \"Good position in category\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gallery\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Good position in category\"",
+                  "offset": 84
+                }
+              ],
+              "location": "com.api.stepdefinitions.stepDefinitions.the_Promotions_element_with_Name_has_a_Description_that_contains_the_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of GET Category API",
+    "description": "",
+    "id": "validation-of-get-category-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/api/features/SanboxApiValidation.feature",
+    "tags": []
+  }
+]
